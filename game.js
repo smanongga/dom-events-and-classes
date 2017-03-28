@@ -45,7 +45,7 @@ function updateCounts () {
 
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
   var dotsCount = document.getElementsByClassName('board')[0].children;
-  console.log(dotsCount);
+
  for (var i = 0; i < dotsCount.length; i++) {
    if (dotsCount[i].classList.contains('blue')) {
      totals.blue++;
